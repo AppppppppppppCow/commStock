@@ -52,6 +52,7 @@ public class UserService {
         
         User user = new User();
 
+        // 테스트 커밋
         user.setEmail(signRequest.getUsername());
         user.setPassword(encodedPassword);
         user.setType(signRequest.getUserType());
